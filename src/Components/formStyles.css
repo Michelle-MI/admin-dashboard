@@ -1,0 +1,21 @@
+/* Custom modal width to take 90% of screen */
+.custom-modal-90 {
+  max-width: 90% !important;
+}
+
+/* Optional: make modal scrollable and 90% height */
+.custom-modal-90 .modal-content {
+  height: 90vh;
+  overflow-y: auto;
+}
+
+/* Existing label alignment class */
+.form-label-right {
+  min-width: 120px;
+  text-align: right;
+}
+
+input.form-control[readonly] {
+  font-weight: bold;
+  color: #000; /* ensures text is clearly visible */
+}
